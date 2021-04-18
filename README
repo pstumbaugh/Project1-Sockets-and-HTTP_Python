@@ -1,0 +1,26 @@
+Patrick Stumbaugh
+
+Project: Sockets and HTTP
+
+How to run:
+
+Navigate to the folder that each of the python files reside.
+
+To run part 1, "Using a socket to GET a file", on the terminal, type:
+    python connect_socket.py
+
+To run part 2, "GET the data for a large file", on the terminal, type:
+    python lab2.py
+    (this may take a few seconds to run depending on the system)
+
+To run part 3, "The world’s simplest HTTP server", on the terminal, type:
+    python http_server.py
+You should then see a message with the IP address (local) of where it's connected and a message saying the server is ready
+That address should be 127.0.0.1:7777. Open an internet browser and go to 127.0.0.1:7777
+On the browser, the page will render text saying "Congratulations! You've downloaded the first Wireshark lab file!"
+Back in the server terminal, you'll see messages about the request received and what it sent back.
+
+
+(all three parts will auto stop once run through)
+
+** note - each python file has hardcoded into it the server/client name and the request, so all the user has to do is run the program to see the results

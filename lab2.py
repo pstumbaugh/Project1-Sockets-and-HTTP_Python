@@ -2,6 +2,7 @@
 
 # background info I found on end of message for sockets from:
 # https://stackoverflow.com/questions/41382127/how-does-the-python-socket-recv-method-know-that-the-end-of-the-message-has-be
+
 # the code is similar to my other "connect_socket.py" file, which I modified to include a loop until no bytes are left to be read
 
 
