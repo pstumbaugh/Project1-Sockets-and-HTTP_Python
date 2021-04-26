@@ -46,6 +46,6 @@ while True:
 
     # encode data and send back to client
     connectionSocket.send(data.encode())
-    connectionSocket.close()  # closer socket
+    connectionSocket.close()  # close socket
     if requestFlag == True:
         break
